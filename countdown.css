@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+background-image: url(cyber-monday-sales-offer.jpg);
+background-position: center;
+background-size: cover;
+background-position: center;
+
+}
+.logo
+{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    /* font-size: 40px;
+    color: white;
+    cursor: pointer;
+      background-clip: text;
+  color: transparent;
+  background-image: linear-gradient(to right, #ffdd00, #ffee04); */
+}
+.content
+{position: absolute;
+    top: 50%;
+    color: white;
+    transform: translateY(-50%) translateX(20%);
+}
+.content h1{
+    font-size: 64px;
+    font-weight: 600;
+    font-family: "Open Sans", sans-serif;
+
+}
+.content h1 span{
+    /* background-clip: text;
+  color: transparent;
+  background-image: linear-gradient(to right, #000000, #405ff7); */
+}
+.content h4{
+    font-size: 30px;
+    font-weight: 600;
+    font-family: "Open Sans", sans-serif;
+
+}
+
+.content button{
+    background: transparent;
+    border: 2px solid white;
+    border-radius: 6px;
+    outline: none;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin-top: 30px;
+    color: white;
+    font-size: 20px;
+    padding: 11px;
+    transition: all .4s linear;
+    transform: scale(1.07);
+    background-color: rgba(0, 0, 0, 0.26);
+}
+.content button i{
+  font-size: 20px;
+    margin-left: 10px;
+    transition: all .3s linear;
+}
+.launch{
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+margin: 40px 0;
+
+}
+.content button i:hover{
+transform: translateY(-2px);
+}
+.content button:hover{
+    transform: scale(1.02);
+    box-shadow: 0 0px 10px rgba(255, 255, 255, 0.475);
+}
+.box1{
+    background-color: rgba(0, 0, 0, 0.64);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction:column;
+    padding: 10px;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+.box{
+    background-color: rgba(0, 0, 0, 0.64);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction:column;
+    padding: 10px;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+.launch div{
+    flex-basis: 100px;
+}
+.launch div p{
+    font-size: 60px;
+    margin-bottom: -14px;
+}
+.rocket{
+    width: 250px;
+    position: absolute;
+    right: 10%;
+    bottom: 0;
+    animation: gift 4s linear infinite ;
+}
+@keyframes gift {
+   0%{
+    top: 0;
+    opacity: 0;
+   } 
+   50%{
+    top: 50%;
+    overflow: 0.3;
+   }
+
+   100%{
+    top: 60%;
+    overflow: 1;
+   }
+}
+
+@media only screen and (max-width:860px)  {
+    .content h4{
+        font-size: 25px;
+    }
+}
+@media only screen and (max-width:720px)  {
+    .content h4{
+        font-size: 20px;
+        font-weight: 700;
+    }
+    .content{
+        transform: translateY(-50%) translateX(10%);
+    }
+}
+@media only screen and (max-width:580px)  {
+    .content h4{
+        font-size: 18px;
+        font-weight: 700;
+    }
+    .content{
+        transform: translateY(-50%) translateX(10%);
+    }
+    .launch{
+        width: 400px;
+    }
+    .launch div {
+        flex-basis: 60px;
+    }
+    
+    .box1 {
+        background-color: rgba(0, 0, 0, 0.64);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 10px 22px;
+        border: 2px solid white;
+        border-radius: 10px;
+    }
+}
+@media only screen and (max-width:490px)  {
+    .content h1{
+        font-size: 50px;
+        margin-top: 80px;
+    }
+    .content h4{
+        font-size: 21px;
+        width: 380px;
+        font-weight: 700;
+    }
+    .content{
+        transform: translateY(-50%) translateX(5%);
+    }
+    .launch{
+        width: 200px;
+        flex-wrap: wrap;
+        gap: 20px;
+        left: 30%;
+        position: relative;
+    }
+    .launch div {
+        flex-basis: 60px;
+    }
+    
+    .box1 {
+        background-color: rgba(0, 0, 0, 0.64);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 10px 25px;
+        border: 2px solid white;
+        border-radius: 10px;
+    }
+}
+@media only screen and (max-width:410px)  {
+    .content h1{
+        font-size: 50px;
+        margin-top: 80px;
+    }
+    .content h4{
+        font-size: 21px;
+        width: 240px;
+        font-weight: 700;
+    }
+    .content{
+        transform: translateY(-50%) translateX(5%);
+    }
+    .launch{
+        width: 200px;
+        flex-wrap: wrap;
+        gap: 20px;
+        left: 23%;
+        position: relative;
+    }
+    .launch div {
+        flex-basis: 60px;
+    }
+    
+    .box1 {
+        background-color: rgba(0, 0, 0, 0.64);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 10px 25px;
+        border: 2px solid white;
+        border-radius: 10px;
+    }
+}
