@@ -142,7 +142,7 @@ transform: translateY(-2px);
 }
 @media only screen and (max-width:720px)  {
     .content h4{
-        font-size: 20px;
+        font-size: 22px;
         font-weight: 700;
     }
     .content{
@@ -151,14 +151,14 @@ transform: translateY(-2px);
 }
 @media only screen and (max-width:580px)  {
     .content h4{
-        font-size: 18px;
+        font-size:19px;
         font-weight: 700;
     }
     .content{
-        transform: translateY(-50%) translateX(10%);
+        transform: translateY(-50%) translateX(5%);
     }
     .launch{
-        width: 400px;
+        width: 450px;
     }
     .launch div {
         flex-basis: 60px;
@@ -170,7 +170,7 @@ transform: translateY(-2px);
         align-items: center;
         justify-content: center;
         flex-direction: column;
-        padding: 10px 22px;
+        padding: 10px 10px;
         border: 2px solid white;
         border-radius: 10px;
     }
@@ -192,7 +192,7 @@ transform: translateY(-2px);
         width: 200px;
         flex-wrap: wrap;
         gap: 20px;
-        left: 30%;
+        left: 0%;
         position: relative;
     }
     .launch div {
@@ -205,7 +205,7 @@ transform: translateY(-2px);
         align-items: center;
         justify-content: center;
         flex-direction: column;
-        padding: 10px 25px;
+        padding: 10px 15px;
         border: 2px solid white;
         border-radius: 10px;
     }
@@ -217,7 +217,7 @@ transform: translateY(-2px);
     }
     .content h4{
         font-size: 21px;
-        width: 240px;
+        width: 325px;
         font-weight: 700;
     }
     .content{
@@ -227,7 +227,7 @@ transform: translateY(-2px);
         width: 200px;
         flex-wrap: wrap;
         gap: 20px;
-        left: 23%;
+        left: 0%;
         position: relative;
     }
     .launch div {
@@ -240,7 +240,7 @@ transform: translateY(-2px);
         align-items: center;
         justify-content: center;
         flex-direction: column;
-        padding: 10px 25px;
+        padding: 10px 15px;
         border: 2px solid white;
         border-radius: 10px;
     }

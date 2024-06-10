@@ -4,7 +4,7 @@ let minItem=document.querySelector("#min");
 let secItem=document.querySelector("#sec");
 
 let countDown = () =>{
-    let futureDate= new Date("10 jun 2024 2:00 PM");//Js Date object show time in millisecond if we use getTimeout() from 1 Januray 1970 till  to 10 june 2024.Otherwise It show date and time of that day( 10 jun 2024)
+    let futureDate= new Date("20 jun 2024 2:00 PM");//Js Date object show time in millisecond if we use getTimeout() from 1 Januray 1970 till  to (Given Date)20 june 2024.Otherwise It show date and time of that day( 10 jun 2024)
     let currentDate=new Date();//Js Date object show time in millisecond if we use getTimeout()  from 1 Januray 1970 till  to Now june 2024.Otherwise It show date and time  of Now Day 2024
     // console.log(futureDate);
     // console.log(currentDate);
